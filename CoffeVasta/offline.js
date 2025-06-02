@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1748837486,
+	"version": 1748878134,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -136,6 +136,7 @@
 		"images/sprite8-sheet3.png",
 		"images/sprite8-sheet4.png",
 		"images/restartp-sheet0.png",
+		"images/continue-sheet0.png",
 		"images/sprite4-sheet0.png",
 		"images/sprite16-sheet0.png",
 		"images/info-sheet0.png",
@@ -144,6 +145,7 @@
 		"images/joystickknob-sheet0.png",
 		"images/interactb-sheet0.png",
 		"images/rightb-sheet0.png",
+		"images/continuem-sheet0.png",
 		"media/bg.ogg",
 		"media/cartoon-little-cat-meow-91.ogg",
 		"media/domestic-cat-hungry-meow-45.ogg",
