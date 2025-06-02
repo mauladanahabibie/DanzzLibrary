@@ -11,11 +11,10 @@
  <h2 class="text-3xl font-bold mt-5 text-white text-center ml-5">Library Game Danzz Alexandra</h2>
  <div class="text-white flex justify-center items-center">
    <div class="w-full max-w-2xl p-5">
-    <div class="text-2xl mb-2" id="gameTitle">Coffe Vasta</div>
-    <div class="text-base text-gray-400 mb-5" id="gameDesc">Game simulasi chill & cepat. Layani pelanggan dan capai skor tertinggi!</div>
-
+    <div class="text-2xl mb-2 " id="gameTitle">Coffe Vasta (Mobile and Desktop)</div>
+    <div class="text-base text-gray-400 mb-2" id="gameDesc">Game simulasi chill & cepat. Layani pelanggan dan capai skor tertinggi!</div>
+    <p class="text-sm font-extrabold text-center text-gray-400 mb-2">Jika Muncul Error atau blank hitam, Silahkan Refresh</p>
     <iframe id="gameFrame" src="CoffeVasta/index.html" allowfullscreen class="mx-auto md:w-full w-72 h-96 md:h-128 rounded-xl shadow-lg border-none"></iframe>
-    <p class="text-sm font-bold text-center text-gray-400 mt-2">Jika Muncul Error atau blank hitam, Silahkan Refresh</p>
     <div class="flex flex-col items-center">
     <div>
       <button class="mt-4 px-5 py-2 bg-teal-500 text-white rounded-lg hover:bg-teal-600" onclick="launchFullscreen()">Fullscreen</button>
@@ -34,10 +33,9 @@
   <script>
     function loadGame(folder) {
       document.getElementById('gameFrame').src = folder + '/index.html';
-      const title1 = 'Coffe Vasta', desc1 = 'Game simulasi chill & cepat. Layani pelanggan dan capai skor tertinggi!';
-      const title2 = 'Flowchart Game', desc2= 'Game flowchart & algoritma. Buatlah flowchart yang benar agar karakter dapat mencapai tujuan.';
-      const title3 = 'Danzz Drift Challenge', desc3 = 'Game drift & fastest lap. Driftlah mobil dengan sempurna dan capai skor tertinggi!';
-
+      const title1 = 'Coffe Vasta (Mobile and Desktop)', desc1 = 'Game simulasi chill & cepat. Layani pelanggan dan capai skor tertinggi!';
+      const title2 = 'Flowchart Game (Desktop Only)', desc2= 'Game flowchart & algoritma. Manfaatkan flowchart & algoritma untuk memecahkan masalah!';
+      const title3 = 'Danzz Drift Challenge (Desktop Only)', desc3 = 'Game drift & fastest lap. Driftlah mobil dengan sempurna dan capai skor tertinggi!';
       switch (folder) {
         case 'CoffeVasta':
           document.getElementById('gameTitle').innerText = title1;
