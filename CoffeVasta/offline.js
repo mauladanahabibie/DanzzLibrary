@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1748878134,
+	"version": 1749218289,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -24,7 +24,8 @@
 		"images/iconp1-sheet2.png",
 		"images/iconp1-sheet3.png",
 		"images/iconp1-sheet4.png",
-		"images/iconp1-sheet5.png",
+		"images/menuc3-sheet0.png",
+		"images/menuc3-sheet1.png",
 		"images/barrier-sheet0.png",
 		"images/kitchentable-sheet0.png",
 		"images/player-sheet0.png",
@@ -146,6 +147,7 @@
 		"images/interactb-sheet0.png",
 		"images/rightb-sheet0.png",
 		"images/continuem-sheet0.png",
+		"images/titikspawnmenu-sheet0.png",
 		"media/bg.ogg",
 		"media/cartoon-little-cat-meow-91.ogg",
 		"media/domestic-cat-hungry-meow-45.ogg",
